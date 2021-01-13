@@ -1,0 +1,289 @@
+/* Top header */
+
+    .logo{
+        float: left;
+        width:25.641025%;
+        padding-top: 1.923076%;
+        }
+
+    .logo img{
+        max-width: 100%;
+        }
+
+
+    /* Top Header-Form */
+
+    .search-input input{
+	    width: 90%; 
+	    background-color: transparent; 
+	    border: 0 solid; 
+        font-size: 11px;
+        outline: none;
+        }
+    .search-button a{
+        font-size: xx-small;
+	    color: #fff;
+        padding: 8% 8% 8% 13%;
+        display: block;
+        text-decoration: none;
+        }
+
+ /* Top Header user-nav */
+
+    .user-name{
+        text-align: end;
+        }
+    .top-nav{
+        padding-left: 8px;
+        float: right;
+        }
+    .top-nav ul{
+        list-style-type: none;
+        overflow: hidden;
+        }
+    .top-nav li{
+        float: left;
+        }
+
+    li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 3px;
+        text-decoration: none;
+        font-size: medium;
+        }
+/*-------------------------------------*/
+
+/* bottom header nav */
+
+    .b-nav{
+        float: left;
+        }
+    .b-nav ul{
+        list-style-type: none;
+        overflow: hidden;
+        }
+    .b-nav li{
+        float: left;
+        padding-left: 20px;
+        }
+
+    .b-nav li a {
+        display: block;
+        color: black;
+        text-decoration: none;
+        font-size: small;
+        overflow: hidden;
+        }
+    .b-nav li a:hover {
+        background-color:#f5f5f5;
+        }
+  
+    .b-nav li:first-child{
+         padding-left:0;
+        } 
+
+
+/* bottom right wrapper */
+
+        .bheader-right ul{
+            list-style: none;
+            margin: 0px;
+            float: right;
+        }
+
+        .bheader-right ul li{
+            float: left;
+            width: auto;
+            color: #aaa;
+        }
+
+        .bheader-right ul li:active{
+            color:#000;
+        }
+        
+        .bheader-right ul li:first-child{
+            background-image: url("../images/topic-box-image.png");
+            background-repeat: no-repeat;
+            padding-left: 18px;
+	        margin-right: 31px;
+        }
+
+        .bheader-right ul li:last-child{
+            background-image: url("../images/friend-request-image.png");
+            background-repeat: no-repeat;
+            padding-left: 25px;
+        }
+        .bheader-right ul li.enabled{
+            color:#000;
+        }
+
+        .bheader-right ul li{
+            font-size: 11px;
+        }
+/*----------------------------*/
+
+/*left-b0x*/
+
+    .recentsearches-one-title{    
+        width: 100%;
+        height: fit-content;
+        background-color:  #7dd9e8;
+        color: white;   
+        }
+
+        .recentsearches-one-title div{
+            padding-top: 6%;
+            padding-left: 8%;
+            padding-bottom: 6%;
+        }
+
+        .recent-container ul{
+            width: 100%;
+            height: fit-content;
+            padding-top: 5%;
+            padding-left: 0%;
+            list-style-type: none;
+            font-size:x-small;
+            background-color:#f5f5f5; 
+          
+        }
+        
+        .recent-container li:hover {
+            background-color: snow;
+            }
+
+
+        .recent-container img{
+            float: right;
+            padding-right: 10px;
+            }
+
+            .recentsearches-two-title{
+                width: 100%;
+                height: fit-content;
+                background-color:  #7dd9e8;
+                color: white; 
+            }
+            
+            .recentsearches-two-title div{
+                padding-top: 6%;
+                padding-left: 8%;
+                padding-bottom: 6%;
+            }
+
+            .rc2{
+                padding-bottom: 100%;
+            }
+
+
+/* Right Box*/
+
+            .main-name{
+                font-size: xx-large;
+            }
+
+
+            .main-button-wrapper ul{
+                list-style-type: none;
+            }
+
+            .main-button-wrapper li{
+                float: left;
+                padding-left: 2%;
+            }
+
+            .main-button-wrapper li a{
+                display: block;
+                color: white;
+                text-align: center;
+                text-decoration: none;
+            }
+
+            .main-button-wrapper li:first-child{
+                padding-left: 5%;
+            }
+
+            .main-button-wrapper li:nth-child(2){
+                padding-left: 2.5%;
+            }
+
+            .main-button-wrapper li:nth-child(3){
+                padding-left: 7%;
+            }
+
+            
+
+            .left-button{
+                float: left;
+                background-color: #dedede;
+                height: max-content;
+                margin-top: 0.9%;
+            }
+
+            .left-button.act{
+                background-color:#47c0d8;
+            }
+            .left-button button{
+                border: none;
+                background: none;
+                cursor: pointer;
+                outline: none;
+                padding-top: 2px;
+                text-decoration: none;
+            }
+            .left-button a{
+                font-size: small;            }
+
+            .span1{
+                float: left;
+            }
+            .right-button{
+                float: right;
+            }
+
+
+
+/* Central Content container */
+     
+.central-content{
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+}
+
+.central-content li{
+    border-bottom: solid 1px rgb(233,233,233);
+    padding-top: 0px;
+}
+
+.cc-container{
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+    }
+    
+    .image-contain{
+        float: left;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .image-contain img{
+        padding-top:12px ;
+        padding-bottom: 12px;
+    }
+
+.info-contain{
+    float: left;
+    padding-top: 3%;
+    padding-left: 3%;
+}
+ 
+.colr-1{
+    color:skyblue;
+}
+.colr-2{
+    color:#9cb53b;
+}
